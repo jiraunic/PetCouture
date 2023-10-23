@@ -1,0 +1,13 @@
+.cta-button 
+{
+    background-color: #7f00b2;
+    border-color: #7f00b2;
+    color: #fff;
+}
+
+.cta-button:hover
+{
+    background-color: #ab3ed8;
+    border-color: #7f00b2;
+    color: #fff;
+}
