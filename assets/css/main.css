@@ -1,0 +1,13 @@
+.bg-purple
+{
+    background-color: #7f00b2;
+    border-color: #7f00b2;
+    color: #fff;
+}
+
+.bg-purple:hover
+{
+    background-color: #ab3ed8;
+    border-color: #7f00b2;
+    color: #fff;
+}
