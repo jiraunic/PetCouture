@@ -11,3 +11,10 @@
     border-color: #7f00b2;
     color: #fff;
 }
+
+.bg-purple-nav
+{
+    background-color: #7f00b2;
+    border-color: #7f00b2;
+    color: #000000 !important;
+}

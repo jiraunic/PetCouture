@@ -12,7 +12,7 @@
     <header class="bg-info text-white text-center py-3">
         <h1>Esmeralda's Pet Couture</h1>
     </header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navMenu">
       <a class="navbar-brand" href="">Inicio</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,10 +21,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#nosotrosSeccion">Nosotros</a>
+            <a class="nav-link" href="#nosotrosSeccion"><b>Nosotros</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#seccionQuienesSomos">¿Quienes somos?</a>
+            <a class="nav-link" href="#seccionQuienesSomos"><b>¿Quienes somos?</b></a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="#seccionClientesSatisfechos"><b>Testimonios</b></a>
           </li>
         </ul>
       </div>
@@ -162,6 +165,48 @@
         </div>
     </div>
     <!-- Termina Quienes somos-->
+    <!-- Clientes satisfechos-->
+    <div class="container my-3 text-center" id="seccionClientesSatisfechos">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 my-5">
+                <h3>Nuestros Clientes Satisfechos</h3>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12">
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner mx-auto" style="max-height: 800px !important;">
+                    <div class="carousel-item active" data-interval="5000">
+                      <img src="assets/img/perrito.jpg" class="d-block w-100" alt="Cliente Satisfecho">
+                      <div class="carousel-caption d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-interval="5000">
+                      <img src="assets/img/perrito2.jpg" class="d-block w-100" alt="Cliente Satisfecho">
+                      <div class="carousel-caption d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-interval="5000">
+                      <img src="assets/img/perrito3.jpg" class="d-block w-100" alt="Cliente Satisfecho">
+                      <div class="carousel-caption d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- buttons -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Termina Clientes satisfechos-->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
