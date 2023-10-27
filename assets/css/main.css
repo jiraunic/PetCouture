@@ -18,3 +18,13 @@
     border-color: #7f00b2;
     color: #000000 !important;
 }
+
+footer
+{
+    font-size: 0.8rem;
+}
+
+.maxSize
+{
+    max-height: 20%!important;
+}
