@@ -8,6 +8,7 @@
     <title>Esmeralda Elegancia Canina</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 </head>
 <body>
     <header class="bg-info text-white text-center py-3">
@@ -36,6 +37,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#seccionCita"><b>Solicita tu cita</b></a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#modalPromociones"><b>Promociones</b></a>
+          </li> 
         </ul>
       </div>
     </nav>
@@ -294,7 +298,49 @@
         </footer>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<!-- Modales -->
+<div class="modal" tabindex="-1" role="dialog" id="modalPromociones">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Próxima apertura</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12">
+                <h1>¡Atención Amantes de las Mascotas!<br>¡Gran Apertura Próximamente!</h1> <br>
+                <p>
+                    En <b>Esmeralda Elegancia Canina</b>, estamos emocionados por dar la bienvenida a todos los amantes de las mascotas a nuestra nueva casa de estilo y comodidad. Estamos preparando algo extraordinario para ti y tu peludo amigo.
+                    <br><br>
+                    Mantente atento a nuestras increíbles promociones de apertura. Pronto podrás disfrutar de descuentos exclusivos, regalos especiales y ofertas que harán que tu mascota se sienta aún más mimada. Es tu oportunidad de darle a tu amigo peludo el tratamiento que se merece a precios especiales.
+                    <br><br>
+                    No te pierdas la oportunidad de dar a tu mascota la experiencia de belleza y bienestar que se merece. ¡Estamos a punto de abrir nuestras puertas y no podemos esperar para consentir a tu amigo peludo!
+                    <br><br>
+                    Síguenos en nuestras redes sociales!!!! <br>Estamos ansiosos por dar la bienvenida a tus mascotas y crear momentos de belleza y felicidad juntos.
+                    <br><br>
+                    <b>Esmeralda Elegancia Canina</b> - Donde la Elegancia y el Bienestar se Encuentran para tus Mascotas."**
+                </p>
+                <img src="assets/img/perrito_promocion.jpeg" alt="Perrito promocional" class="img-fluid img-thumbnail">
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- -->
+
+<script>
+    $(document).ready( init => {
+        $("#modalPromociones").modal();
+    });
+</script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
